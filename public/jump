@@ -12,8 +12,8 @@
 	var variety=0;  
     var bond;
 
-    var road = new Array(10000);//记录棋子的轨迹
-    var stack = new Array(10000);//存储过程的栈
+    var road = new Array(10000);//路径
+    var stack = new Array(10000);//栈
  
 
     function result(value)
