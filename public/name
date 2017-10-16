@@ -60,6 +60,7 @@ ctx.lineTo(410,210);//13
 ctx.moveTo(370,140);
 ctx.lineTo(530,140);//14
 
+
 ctx.moveTo(650,60);
 ctx.lineTo(710,60);//15
 
