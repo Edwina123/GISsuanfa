@@ -17,8 +17,7 @@
             <br>
             <br>
             <input type="button" value="开始绘制" onclick="Drawname()">
-            </div>
-            <div>
+            </div>            <div>
                 <canvas id="canv" width="10000px" height="3000px"></canvas>
             </div>
         </div>
@@ -72,7 +71,7 @@
                 var canvas = document.getElementById("canv");
                 var cxt = canvas.getContext("2d");
                 cxt.beginPath();
-                cxt.lineWidth = 5;
+                cxt.lineWidth = 2;
                 for(i=0;i<N+1;i++)
                 {   
                     var l=Lines[i].length;
