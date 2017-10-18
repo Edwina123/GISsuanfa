@@ -9,15 +9,16 @@
         <script type="text/javascript" src="javascripts/functions.js"></script>
     
     <body>
-        <div>
+        <div >
 
-            <div>
-            <p>请选择姓名文件</p>
+            <div >
+            <p>请选择姓名坐标编码文件</p>
             <input type="file" id="input">
             <br>
             <br>
-            <input type="button" value="开始绘制" onclick="Drawname()">
-            </div>            <div>
+            <input type="button" value="绘制" onclick="Drawname()">
+            </div>
+            <div >
                 <canvas id="canv" width="10000px" height="3000px"></canvas>
             </div>
         </div>
@@ -51,7 +52,7 @@
                     
                     if(text[i]!="END")
                     {   
-                        if(text[i].length!=1)
+                        if(text[i].length!=2)
                         {
                         var x;
                         var y;
@@ -71,7 +72,7 @@
                 var canvas = document.getElementById("canv");
                 var cxt = canvas.getContext("2d");
                 cxt.beginPath();
-                cxt.lineWidth = 2;
+                cxt.lineWidth = 5;
                 for(i=0;i<N+1;i++)
                 {   
                     var l=Lines[i].length;
