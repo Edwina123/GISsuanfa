@@ -9,16 +9,16 @@
         <script type="text/javascript" src="javascripts/functions.js"></script>
     
     <body>
-        <div >
+        <div>
 
-            <div >
+            <div>
             <p>请选择姓名文件</p>
             <input type="file" id="input">
             <br>
             <br>
-            <input type="button" value="绘制" onclick="Drawname()">
+            <input type="button" value="开始绘制" onclick="Drawname()">
             </div>
-            <div >
+            <div>
                 <canvas id="canv" width="10000px" height="3000px"></canvas>
             </div>
         </div>
