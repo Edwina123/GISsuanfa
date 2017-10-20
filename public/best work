@@ -14,7 +14,7 @@
                  {ID:3, Time:2 ,Deadline:4,worth:3},
                  {ID:4, Time:1 ,Deadline:2,worth:6} ]
 
-     for(var i=0;i<4;i++)   //只有一个工作组的情况
+     for(var i=0;i<4;i++)  
      {
        document.write("工作序列："+work[i].ID+"</br>");
        var leftworth1=new Array();
